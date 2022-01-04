@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  padding: 20px 80px;
+  max-height: 80px;
+  background: #ffffff;
+  box-shadow: inset 0px -1px 0px rgba(66, 66, 66, 0.4);
+}
+
+.logo {
+  display: flex;
+  width: 193px;
+  height: 40px;
+  background: #c4c4c4;
+  border-radius: 21px;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+}
+
+.nav-items {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #353535;
+  padding-left: 40px;
+}
+
+.nav-items:first-of-type {
+  padding-left: 0;
+}
+
+.fa {
+  width: 13px;
+  height: 6.5px;
+  padding-left: 9px;
+}
+
+.mod {
+  position: absolute;
+  display: none;
+  background: #ffffff;
+  border: 1px solid rgba(66, 66, 66, 0.4);
+  border-radius: 4px;
+  list-style: none;
+  padding-left: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3a3a3a;
+}
+
+.mod-about {
+  top: 74px;
+  left: 1497px;
+}
+.mod-serv {
+  top: 74px;
+  left: 1660px;
+}
+.mod-contact {
+  top: 74px;
+  left: 1837px;
+}
+.about:hover .mod-about {
+  display: block;
+}
+
+.services:hover .mod-serv {
+  display: block;
+}
+
+.contact:hover .mod-contact {
+  display: block;
+}
