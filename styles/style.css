@@ -39,28 +39,32 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: end;
-  padding-top: 7px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .nav-item {
   display: flex;
   position: relative;
-  padding-bottom: 6px;
-  padding-top: 0px;
   margin: 0;
   list-style: none;
   font-size: 24px;
   line-height: 29px;
   color: #353535;
-  padding-left: 40px;
+  margin-left: 40px;
 }
 
 .nav-item:first-of-type {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .fa {
   padding-left: 9px;
+}
+
+.nav-link {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .mod {
@@ -82,13 +86,13 @@ a {
     margin: 16px 0;
 }
 .mod-about {
-  top: 36px;
+  top: 65px;
 }
 .mod-serv {
-  top: 36px;
+  top: 65px;
 }
 .mod-contact {
-  top: 36px;
+  top: 65px;
 }
 .about:hover .mod-about {
   display: block;
