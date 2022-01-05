@@ -9,25 +9,33 @@ body {
   
 }
 
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
 .container {
   max-width: 1310px;
   margin: 0 auto;
 }
 
-.header {
-  /* position: relative; */
-  padding: 20px 80px;
-  max-height: 80px;
-  background: #ffffff;
-  box-shadow: inset 0px -1px 0px rgba(66, 66, 66, 0.4);
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  display: flex;
-  width: 193px;
-  height: 40px;
-  background: #c4c4c4;
-  border-radius: 21px;
+
+width: 193px;
+height: 40px;
+background: #C4C4C4;
+border-radius: 21px;
+}
+
+.header {
+  /* padding: 20px 80px; */
+  background: #ffffff;
+  box-shadow: inset 0px -1px 0px rgba(66, 66, 66, 0.4);
 }
 
 .nav-list {
@@ -40,7 +48,7 @@ body {
   display: flex;
   position: relative;
   padding-left: 0;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   margin: 0;
   list-style: none;
   font-size: 24px;
@@ -78,13 +86,13 @@ body {
     margin: 16px 0;
 }
 .mod-about {
-  top: 38px;
+  top: 36px;
 }
 .mod-serv {
-  top: 38px;
+  top: 36px;
 }
 .mod-contact {
-  top: 38px;
+  top: 36px;
 }
 .about:hover .mod-about {
   display: block;
