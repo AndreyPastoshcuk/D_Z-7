@@ -6,6 +6,7 @@ body {
   margin: 0;
 
   font-family: "Montserrat", sans-serif;
+  
 }
 
 .container {
@@ -39,6 +40,7 @@ body {
   display: flex;
   position: relative;
   padding-left: 0;
+  padding-bottom: 10px;
   margin: 0;
   list-style: none;
   font-size: 24px;
@@ -60,16 +62,21 @@ body {
 .mod {
   position: absolute;
   display: none;
+  top calc(100% - 5px);
   background: #ffffff;
   border: 1px solid rgba(66, 66, 66, 0.4);
   border-radius: 4px;
   list-style: none;
-  padding-left: 0;
+  padding: 16px 24px;
+  min-width: 229px;
   font-size: 24px;
   line-height: 29px;
   color: #3a3a3a;
 }
 
+.el-podmenu {
+    margin: 16px 0;
+}
 .mod-about {
   top: 38px;
 }
