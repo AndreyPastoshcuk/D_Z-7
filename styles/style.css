@@ -4,15 +4,14 @@
 
 body {
   margin: 0;
-
-  font-family: "Montserrat", sans-serif;
-  
+  font-family: "Montserrat", sans-serif; 
 }
 
 a {
     text-decoration: none;
     color: #3a3a3a;
 }
+
 .container {
   max-width: 1310px;
   margin: 0 auto;
@@ -25,15 +24,13 @@ a {
 }
 
 .logo {
-
-width: 193px;
-height: 40px;
-background: #C4C4C4;
-border-radius: 21px;
+    width: 193px;
+    height: 40px;
+    background-color: #C4C4C4;
+    border-radius: 21px;
 }
 
 .header {
-  /* padding: 20px 80px; */
   background: #ffffff;
   box-shadow: inset 0px -1px 0px rgba(66, 66, 66, 0.4);
 }
@@ -42,13 +39,14 @@ border-radius: 21px;
   display: flex;
   flex-flow: row wrap;
   justify-content: end;
+  padding-top: 7px;
 }
 
-.nav-items {
+.nav-item {
   display: flex;
   position: relative;
-  padding-left: 0;
   padding-bottom: 6px;
+  padding-top: 0px;
   margin: 0;
   list-style: none;
   font-size: 24px;
@@ -57,7 +55,7 @@ border-radius: 21px;
   padding-left: 40px;
 }
 
-.nav-items:first-of-type {
+.nav-item:first-of-type {
   padding-left: 0;
 }
 
@@ -80,7 +78,7 @@ border-radius: 21px;
   color: #3a3a3a;
 }
 
-.el-podmenu {
+.nav-subItem {
     margin: 16px 0;
 }
 .mod-about {
